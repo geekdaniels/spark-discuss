@@ -1,1 +1,1 @@
-## Discourse theme for https://community.sparkle.ng
+## Discourse theme Spark
