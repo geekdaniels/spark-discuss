@@ -1,0 +1,351 @@
+// functions  --------------------------------------------------------------------------------
+
+// Variables  ---------------------------------------------------------------------------------
+$v-forum-background: url(#{$forum_background}) !default;
+$v-pillar-logo: url(#{$pillarlogo-medium}) !default;
+
+// backgrounds --------------------------------------------------------------------------------
+
+#main-outlet {
+    background: white;
+}
+
+// body background ----------------------------------------------------------------------------
+
+body {
+	background: $v-forum-background;
+	background-size: 100% auto;
+    background-repeat: repeat-y;
+}
+
+// list controls ------------------------------------------------------------------------------
+
+.list-controls {
+    section.navigation-container {
+
+        ol.category-breadcrumb {
+            display: none;
+        }
+
+        .nav-pills > li {
+            margin-right: 15px;
+        }
+
+        .nav-pills > li > a {
+            border: 1px solid #007aff;
+            color: #007aff;
+            background: transparent;
+            border-radius: 9999px;
+            font-size: 16px;
+            font-weight: 300;
+            width: 100px;
+            text-align: center;
+            transition: background 0.15s;
+        }
+
+        .nav-pills > li.active > a,
+        .nav-pills > li > a:hover {
+            background: #007aff;
+            color: white;
+        }
+
+        button#create-topic {
+            border: 1px solid #007aff;
+            color: #007aff;
+            background: transparent;
+            border-radius: 9999px;
+            font-size: 16px;
+            font-weight: 300;
+            text-align: center;
+            transition: background 0.15s;
+
+            &:hover {
+                background: #007aff;
+                color: white;
+            }
+        }
+    }
+}
+
+// category list ------------------------------------------------------------------------------
+
+.categories-and-latest,
+.categories-and-top {
+    display: flex;
+    flex-direction: column;
+}
+
+.categories-and-latest div.column,
+.categories-and-top div.column {
+    flex: none;
+}
+
+.categories-and-latest div.column.categories,
+.categories-and-top div.column.categories {
+    margin-right: 0;
+}
+
+table.category-list {
+    overflow: hidden;
+    margin-top: 15px;
+    margin-bottom: 15px;
+
+    thead {
+        display: none;
+    }
+
+    tbody {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        border: none;
+        padding: 14px;
+
+        tr {
+            margin: 14px;
+
+            td.topics {
+                display: none;
+            }
+
+            td.category {
+                display: block;
+                text-align: center;
+                border-radius: 6px;
+                border-style: solid;
+                border-width: 1px;
+                padding: 24px !important;
+                background:  #f8f9fa;
+                box-shadow: 1px 2px 5px 2px #e0e0e0;
+                width: 180px;
+                height: 180px;
+
+                & > div {
+                    height: 100%;
+                }
+
+                & > div > h3 {
+                    height: 100%;
+                }
+
+                & > div > h3 > a {
+                    height: 100%;
+                }
+
+                .subcategories {
+                    display: none;
+                }
+
+                .category-description {
+                    display: none;
+                }
+
+                a.category-title-link {
+                    display: flex;
+                    flex-direction: column-reverse;
+                    justify-content: center;
+                }
+
+                a {
+                    text-decoration: none;
+                }
+
+                .category-text-title {
+                    justify-content: center;
+                    font-size: 16px;
+                    font-weight: 300;
+                    color: black;
+                    white-space: nowrap;
+                    overflow: hidden;
+
+                    span.category-name {
+                        text-align: center;
+                    }
+                }
+
+                .category-logo {
+                    margin: 0 0 20px 0;
+                    width: 100px;
+                    height: 100px;
+                    float: none;
+                    object-fit: contain;
+                }
+            }
+        }
+    }
+}
+
+// category badge box -------------------------------------------------------------------------
+
+a.badge-wrapper.box {
+    padding: 5px 10px;
+    border-radius: 3px;
+    overflow: hidden;
+}
+
+// footer -------------------------------------------------------------------------------------
+
+footer#footer {
+    width: 100%;
+    background: white;
+    display: flex;
+    flex-direction: column;
+
+    .footer-container {
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        justify-content: space-around;
+        align-items: center;
+        margin-bottom: 15px;
+
+        .footer-column {
+            padding: 26px;
+            width: 33.33%;
+        }
+
+        .info-column .footer-logo {
+            width: 100%;
+            height: 100px;
+            background: $v-pillar-logo;
+            background-repeat: no-repeat;
+            background-position: left top;
+            background-size: contain;
+        }
+
+        .info-column p {
+            font-size: 14px;
+            font-weight: 300;
+            color: black;
+        }
+
+        .links-column {
+            display: flex;
+            flex-direction: row;
+            flex-wrap: nowrap;
+
+            .half-width {
+                width: 50%;
+            }
+
+            a {
+                font-size: 16px;
+                font-weight: normal;
+                color: black;
+                text-decoration: none;
+            }
+        }
+
+        .join-column {
+            display: flex;
+            flex-direction: column;
+
+            .join-us-title {
+                font-size: 20px;
+                font-weight: normal;
+                color: black;
+            }
+
+            .social-buttons {
+                display: flex;
+                flex-wrap: wrap;
+
+                a {
+                    font-size: 1.6rem;
+                    background: #C3CAD2;
+                    width: 40px;
+                    height: 40px;
+                    line-height: 1.8em;
+                    border-radius: 20px;
+                    color: #fff;
+                    margin: 0 10px 10px 0;
+                    display: inline-block;
+                    vertical-align: middle;
+                    text-align: center !important;
+                    text-decoration: none !important;
+                    letter-spacing: 0;
+                    -webkit-transition: background-color .3s ease-in-out,border-color .3s ease-in-out,color .3s ease-in-out;
+                    transition: background-color .3s ease-in-out,border-color .3s ease-in-out,color .3s ease-in-out;
+                }
+            }
+        }
+    }
+
+    .copyright-container {
+        width: 100%;
+
+        p {
+            font-size: 10px;
+            font-weight: 300;
+            padding-left: 26px;
+            padding-right: 26px;
+        }
+    }
+}
+
+@media (max-width: 650px) {
+    footer#footer {
+        .footer-container {
+            display: block;
+
+            .footer-column {
+                width: 100%;
+                padding: 16px;
+            }
+        }
+
+        .copyright-container {
+            p {
+                padding-left: 16px;
+                padding-right: 16px;
+            }
+        }
+    }
+}
+
+
+
+
+/*Footer area */
+
+footer {
+	background-color: #000;
+}
+
+.footer__description {
+	color: #fff;
+	font-size: 14px;
+}
+
+.footer__title {
+	color: #fff;
+	font-weight: 700;
+	font-size: 18px;
+	margin-bottom: 35px;
+}
+
+footer ul li a {
+	color: #fff;
+	font-size: 16px;
+}
+
+footer ul li a:hover {
+	color: #fff;
+	font-size: 16px;
+	text-decoration: none;
+	opacity: 0.4;
+}
+
+footer ul li a.active {
+	color: #fff;
+	font-size: 16px;
+	text-decoration: none;
+	opacity: 0.4;
+}
+
+.footer__disclaimer {
+	color: #fff;
+	font-size: 14px;
+}
+

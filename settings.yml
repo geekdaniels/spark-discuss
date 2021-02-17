@@ -1,0 +1,4 @@
+forum_background:
+  default: "#{$forum-background}"
+  description:
+    en: If you wish to change the default background add the url of the new background above.

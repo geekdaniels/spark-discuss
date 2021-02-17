@@ -1,0 +1,12 @@
+{
+  "name": "Spark",
+  "about_url": "#",
+  "license_url": "#",
+   "assets": {
+        "forum-background": "assets/forum-background.svg",
+        "pillarlogo-medium": "assets/pillarlogo-medium.png",
+        "mattermost-logo": "assets/mattermost-logo.png"
+   },
+   "color_schemes": {
+   }
+}
