@@ -5,7 +5,10 @@
    "assets": {
         "forum-background": "assets/forum-background.svg",
         "pillarlogo-medium": "assets/pillarlogo-medium.png",
-        "mattermost-logo": "assets/mattermost-logo.png"
+        "mattermost-logo": "assets/mattermost-logo.png",
+        "proxima-nova-400": "assets/fonts/Proxima-Nova-Alt-Regular-webfont.eot",
+        "proxima-nova-400-woff": "assets/fonts/Proxima-Nova-Alt-Regular-webfont.woff",
+        "proxima-nova-400-ttf": "assets/fonts/Proxima-Nova-Alt-Regular-webfont.ttf"
    },
    "color_schemes": {
    }
