@@ -2,14 +2,16 @@
   "name": "Spark",
   "about_url": "#",
   "license_url": "#",
-   "assets": {
-        "forum-background": "assets/forum-background.svg",
-        "pillarlogo-medium": "assets/pillarlogo-medium.png",
-        "mattermost-logo": "assets/mattermost-logo.png",
-        "proxima-nova-400": "assets/fonts/Proxima-Nova-Alt-Regular-webfont.eot",
-        "proxima-nova-400-woff": "assets/fonts/Proxima-Nova-Alt-Regular-webfont.woff",
-        "proxima-nova-400-ttf": "assets/fonts/Proxima-Nova-Alt-Regular-webfont.ttf"
-   },
-   "color_schemes": {
-   }
+  "assets": {
+    "forum-background": "assets/forum-background.svg",
+    "banner-forum": "assets/loyalty-hero.jpg",
+    "downloads-wrapper": "assets/downloads-wrapper.jpg",
+    "sparkle-community-banner": "assets/sparkle-community-banner.jpg",
+    "mattermost-logo": "assets/mattermost-logo.png",
+    "proxima-nova-400": "assets/fonts/Proxima-Nova-Alt-Regular-webfont.eot",
+    "proxima-nova-400-woff": "assets/fonts/Proxima-Nova-Alt-Regular-webfont.woff",
+    "proxima-nova-400-ttf": "assets/fonts/Proxima-Nova-Alt-Regular-webfont.ttf",
+    "mont-otf": "assets/fonts/Mont-Heavy.otf"
+  },
+  "color_schemes": {}
 }
