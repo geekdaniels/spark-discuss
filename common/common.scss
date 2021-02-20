@@ -21,14 +21,6 @@ $v-mont-otf: url(#{$mont-otf}) !default;
   font-display: swap;
 }
 
-// @font-face {
-// 	font-family: 'Mont';
-// 	src:url('fonts/Mont-ExtraLight.otf') format('opentype');
-// 	font-weight: 300;
-// 	font-style: normal;
-// 	font-display: swap;
-// }
-
 @font-face {
   font-family: "Mont";
   src: $v-mont-otf format("opentype");
@@ -82,15 +74,6 @@ body {
   background-position: 50%;
   position: relative;
   height: 100vh;
-}
-
-// category badge box -------------------------------------------------------------------------
-
-a.badge-wrapper.box {
-  padding: 5px 10px;
-  border-radius: 16px;
-  overflow: hidden;
-  background-color: #dadada;
 }
 
 /*Footer area */

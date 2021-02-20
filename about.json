@@ -13,5 +13,7 @@
     "proxima-nova-400-ttf": "assets/fonts/Proxima-Nova-Alt-Regular-webfont.ttf",
     "mont-otf": "assets/fonts/Mont-Heavy.otf"
   },
-  "color_schemes": {}
+  "color_schemes": {
+    
+  }
 }
