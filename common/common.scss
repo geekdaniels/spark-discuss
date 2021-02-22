@@ -140,8 +140,12 @@ footer.sparkle--footer {
 }
 
 .list-controls section.navigation-container button#create-topic {
-  background: #14233B !important;
+  background: #14233b !important;
   color: #fff;
+}
+
+.admin-main-nav {
+  display: inline;
 }
 
 // .category-list {
