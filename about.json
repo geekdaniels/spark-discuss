@@ -15,11 +15,12 @@
   "color_schemes": {
     "Sparkle": {
       "primary": "586E75",
-      "secondary": "EEE8D5",
+      "secondary": "ffffff",
       "tertiary": "97D700",
       "quaternary": "14233B",
       "header_background": "002B36",
       "header_primary": "000000",
+      "header_primary-low-mid" : "ffffff",
       "highlight": "B58900",
       "danger": "CB4B16",
       "success": "859900",
