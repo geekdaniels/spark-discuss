@@ -13,6 +13,17 @@
     "mont-otf": "assets/fonts/Mont-Heavy.otf"
   },
   "color_schemes": {
-    
+    "Sparkle": {
+      "primary": "586E75",
+      "secondary": "EEE8D5",
+      "tertiary": "97D700",
+      "quaternary": "14233B",
+      "header_background": "002B36",
+      "header_primary": "000000",
+      "highlight": "B58900",
+      "danger": "CB4B16",
+      "success": "859900",
+      "love": "DC322F"
+    }
   }
 }
