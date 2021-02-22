@@ -270,15 +270,3 @@
                 </div>
               </div>
             </footer>
-
-            <script>
-              function setCopyrightYear() {
-                  var el = document.getElementById("footer-copyright-current-year");
-                  if (el) {
-                      el.innerHTML = new Date().getFullYear();
-                  } else {
-                      setTimeout(setCopyrightYear, 100);
-                  }
-              }
-              document.addEventListener("DOMContentLoaded", setCopyrightYear);
-          </script>
