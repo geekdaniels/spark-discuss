@@ -15,6 +15,7 @@
   "color_schemes": {
     "Sparkle": {
       "primary": "586E75",
+      "primary-medium": "6c7173",
       "secondary": "ffffff",
       "tertiary": "97D700",
       "quaternary": "14233B",
