@@ -8,3 +8,15 @@
   rel="stylesheet"
   href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.6.0/css/bootstrap-grid.min.css"
 />
+
+<script>
+  function setCopyrightYear() {
+      var el = document.getElementById("footer-copyright-current-year");
+      if (el) {
+          el.innerHTML = new Date().getFullYear();
+      } else {
+          setTimeout(setCopyrightYear, 100);
+      }
+  }
+  document.addEventListener("DOMContentLoaded", setCopyrightYear);
+</script>

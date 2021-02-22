@@ -261,7 +261,7 @@
                       width="100"
                     />
                     <p class="footer__disclaimer mb-3">
-                      © {new Date().getFullYear()} Sparkle (RC1589808). All
+                      © <span id="footer-copyright-current-year"></span> Sparkle (RC1589808). All
                       rights reserved. All deposits are insured by the Nigerian
                       Deposit Insurance Corporation (NDIC). Sparkle is licensed
                       by the Central Bank of Nigeria.
@@ -270,3 +270,15 @@
                 </div>
               </div>
             </footer>
+
+            <script>
+              function setCopyrightYear() {
+                  var el = document.getElementById("footer-copyright-current-year");
+                  if (el) {
+                      el.innerHTML = new Date().getFullYear();
+                  } else {
+                      setTimeout(setCopyrightYear, 100);
+                  }
+              }
+              document.addEventListener("DOMContentLoaded", setCopyrightYear);
+          </script>
